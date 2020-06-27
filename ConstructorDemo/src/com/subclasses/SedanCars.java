@@ -10,7 +10,7 @@ public class SedanCars extends Car {
 		System.out.println("inside no arg constructor sedan car");
 	}
 	
-	protected SedanCars(String make,String model, String year) {
+	public SedanCars(String make,String model, String year) {
 		super(make,model,year);
 		System.out.println("inside param arg constructor sedan car");
 	}
